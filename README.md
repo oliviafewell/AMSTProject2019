@@ -1,16 +1,9 @@
-# AMSTProject2019
-Used .json, python, HTML and CSS to render a web page for the Museum of the the Rockies 
+<h1> Digital America Project 2019 </h1>
 
- -- npm start
-Runs app in development mode - Opened with:
-    http://localhost:3000 to view in browser
+<h3> Install with Yarn </h3>
+<p> To install all dependencies for this project, cd into project folder and run the following Yarn.js commands. </p> <br>
+<p style = "font-family: monospace: 12px;">  cd amst-project   yarn   yarn start </p>
+<br>
 
- -- npm test
-Launches the test runner in interactive mode.
-
- -- npm run build
-Builds app for production to build folder
-Bundles React in production mode and will optimize the build so it preforms at its best.
-
- -- npm run eject
-......
+<h3> .env config </h3>
+This application will require a Google Maps API configuation key in order to function properly. Copy the lines of code from .env.example and create your own .env life in the root of the project folder. Paste your personal API key in KEY=HILL_IN_YOUR_KEY_HERE
