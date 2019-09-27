@@ -1,0 +1,43 @@
+.header{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid grey
+}
+
+.title{
+    margin-left: 2rem;
+}
+
+.addButton{
+    margin-right: 2rem;
+    cursor: pointer;
+    color: red;
+}
+
+.list-container{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    
+    &:hover{
+        background-color: lightgrey;
+        cursor: pointer;
+    }
+}
+
+.list-element{
+    margin-left: .25rem;
+}
+
+.photo{
+    margin-top: .25rem;
+    margin-right: .5rem;
+    cursor: pointer;
+}
+
+.list-photo {
+    margin-right: 1rem;
+    margin-bottom: .5rem;
+}
